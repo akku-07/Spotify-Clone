@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: #1DB954;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family:'Ubuntu',sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding:0 12px;
+}
+
+.brand img{
+    width: 70px;
+
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+
+}
+
+.brand span{
+    padding-left: 12px;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding:30px;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+i:hover{
+    color:#1DB954
+}
+
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Varela Round';
+    position:sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    color:white;
+
+}
+
+.icons{
+    margin-top: 12px;
+}
+
+.icons i{
+    cursor: pointer;
+    margin: 12px
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+    background-color: #1DB954;
+    color: #1DB954;
+}
+
+input[type="range"] {
+    accent-color:  #1DB954;
+}
+
+.songItemContainer{
+    margin-top: 34px;
+    margin-left: 12px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    width:100%;
+    margin: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem span{
+    margin: 4px;
+    
+}
+
+.timestamp i{
+    margin: 12px;
+    cursor:pointer;
+}
+
+.songItem img{
+    width: 50px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+
+.songInfo{
+    position: absolute;
+    left: 9.5vw;
+    
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify: Home to your favourite music!</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand">
+          <img src="logo.png" alt="spotify" /><span>Spotify</span>
+        </li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="songList">
+        <h1>Best of NCS Guitar Songs</h1>
+        <div class="songItemContainer">
+          <div class="songItem">
+            <img src="/covers/1.jpg" alt="1" />
+            <span class="songName">Let Me Love You</span>
+            <span class="songListPlay"
+              ><span class="timestamp"
+                >05:34<i
+                  id="1"
+                  class="fa-solid songItemPlay fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+
+          <div class="songItem">
+            <img src="/covers/2.jpg" alt="1" />
+            <span class="songName">Let Me Love You</span>
+            <span class="songListPlay"
+              ><span class="timestamp"
+                >05:34<i
+                  id="2"
+                  class="fa-solid songItemPlay fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+
+          <div class="songItem">
+            <img src="/covers/3.jpg" alt="1" />
+            <span class="songName">Let Me Love You</span>
+            <span class="songListPlay"
+              ><span class="timestamp"
+                >05:34<i
+                  id="3"
+                  class="fa-solid songItemPlay fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+
+          <div class="songItem">
+            <img src="/covers/4.jpg" alt="1" />
+            <span class="songName">Let Me Love You</span>
+            <span class="songListPlay"
+              ><span class="timestamp"
+                >05:34<i
+                  id="4"
+                  class="fa-solid songItemPlay fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+
+          <div class="songItem">
+            <img src="/covers/5.jpg" alt="1" />
+            <span class="songName">Let Me Love You</span>
+            <span class="songListPlay"
+              ><span class="timestamp"
+                >05:34<i
+                  id="5"
+                  class="fa-solid songItemPlay fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+
+          <div class="songItem">
+            <img src="/covers/6.jpg" alt="1" />
+            <span class="songName">Let Me Love You</span>
+            <span class="songListPlay"
+              ><span class="timestamp"
+                >05:34<i
+                  id="6"
+                  class="fa-solid songItemPlay fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+        </div>
+
+        <div class="songBanner"></div>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <input type="range" name="range" id="myProgressBar" min="0" max="100" style="color:#1DB954"/>
+      <div class="icons">
+        <!--fontawesome icons-->
+        <i class="fa-3x fa-solid fa-backward-step" id="previous"></i>
+        <i class="fa-3x fa-solid fa-circle-play" id="masterPlay"></i>
+        <i class="fa-3x fa-solid fa-forward-step" id="next"></i>
+      </div>
+      <div class="songInfo">
+        <img class="songGif" src="playing.gif" width="50px" id="gif" />
+        <span id="masterSongName"> Best of NCS Guitar Songs</span>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/503cb15624.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script1.js"></script>
+  </body>
+</html>

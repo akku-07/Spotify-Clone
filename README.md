@@ -1,4 +1,4 @@
-**Spotify Clone Project***
+**Spotify Clone Project**
 
 //Description
 

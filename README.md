@@ -1,6 +1,7 @@
 **Spotify Clone Project***
 
 //Description
+
 This project is a Spotify clone website created using HTML, CSS, and JavaScript. The website allows users to play music from a given song list, with features including playing the current song, moving to the previous song, and skipping to the next song.
 
 //Features
@@ -16,14 +17,15 @@ This project is a Spotify clone website created using HTML, CSS, and JavaScript.
 
 
 //Setup and Installation
-*Clone the Repository:
-git clone https://github.com/akku-07/Spotify-Clone.git
 
-*Navigate to the Project Directory:
-cd Spotify-Clone
-
-*Open the Project in Your Browser:
-Open index1.html in your preferred web browser.
+	Clone the Repository:
+	git clone https://github.com/akku-07/Spotify-Clone.git
+		
+	Navigate to the Project Directory:
+	cd Spotify-Clone
+		
+	Open the Project in Your Browser:
+	Open index1.html in your preferred web browser.
 
 //Usage
 *Open the Website: Launch the index1.html file in a web browser.
@@ -45,17 +47,17 @@ Open index1.html in your preferred web browser.
 
 //Contributing
 Contributions are welcome! Please follow these steps to contribute:
-
 *Fork the repository.
 *Create a new branch (git checkout -b feature-branch).
 *Make your changes and commit them (git commit -m 'Add some feature').
 *Push to the branch (git push origin feature-branch).
 *Open a pull request.
 
-
 //License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgements
+//Acknowledgements
 Inspired by Spotify's design and functionality.
+
+***akku-07 2024***
 Thanks to all contributors and open-source resources.
